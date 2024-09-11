@@ -146,38 +146,42 @@ h3{
     border-top-right-radius: 15px;
 }
 
-.personal {
-    background-color: white;
+.Redes_sociais{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.Redes {
+    background-color: #ff6633;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #333;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     padding: 20px;
-    width: 160px;
     transition: transform 0.3s ease;
-    border: 1px solid #ddd;
 }
 
-.personal:hover {
+.Redes:hover {
     transform: translateY(-5px);
 }
 
-.personal img {
+.Redes img {
     width: 50px;
-    margin-left: 20px;
     transition: transform 0.3s ease;
 }
 
-.personal img:hover {
+.Redes img:hover {
     transform: scale(1.1);
 }
 
-.personal p {
-    font-size: 18px;
+.Redes p {
+    font-size: 16px;
     font-weight: bold;
     margin: 0;
+
 }
 
 #instagram {
