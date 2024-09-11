@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+    font-family: sans-serif, Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ff6633;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+
+.menu a:hover {
+    background-color: #ff6633;
+    color: black;
+}
+
+.div_fotos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+    min-height: 80vh;
+    max-width: 1920px; 
+}
+
+.texto_fachadas {
+    width: 50%;
+    height: 340px;
+    padding-right: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fotos {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    max-height: 80vh;
+}
+
+.foto {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 35px;
+    border: 3px solid #ff6633;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ff6633;
+    padding: 20px 0;
+    font-family: sans-serif, arial;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 28px;
+    color: #ff6633;
+    font-family: sans-serif, arial;
+}
+
+h3{
+    font-family: sans-serif, arial;
+    color: black;
+    padding: 15px;
+}
+
+.linhas p {
+    font-family: sans-serif, Arial;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Linhas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: black;
+}
+
+.Linha {
+    background-color: white;
+    border-radius: 16px;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #ff6633;
+}
+
+.Linha img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.personal {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 160px;
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.personal:hover {
+    transform: translateY(-5px);
+}
+
+.personal img {
+    width: 50px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.personal img:hover {
+    transform: scale(1.1);
+}
+
+.personal p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#instagram {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%;
+}
