@@ -41,8 +41,8 @@ header {
     text-align: center;
     padding: 10px 15px;
     font-weight: 600;
+    justify-content: center;
 }
-
 
 .menu a:hover {
     background-color: #ff6633;
@@ -90,12 +90,13 @@ header {
         flex-direction: row;
         width: 100%;
         background-color: black;
+        margin-top: 20px ;
     }
     .div_fotos{
         flex-direction: column;
     }
     h1 {
-        font-size: 180%;
+        font-size: 10px;
         color: #ff6633;
         font-family: sans-serif, arial;
     }
@@ -109,6 +110,9 @@ header {
     .Linhas{
         flex-direction: column;
         align-items: center;
+    }
+    .header{
+        flex-direction: column;
     }
 }
 
@@ -127,7 +131,7 @@ header {
 }
 
 h1 {
-    font-size: 180%;
+    font-size: 24px;
     color: #ff6633;
     font-family: sans-serif, arial;
     
@@ -182,6 +186,8 @@ h3{
     display: flex;
     justify-content: center;
     padding: 50px;
+    gap: 20px;
+    
 }
 
 .Redes {
@@ -214,13 +220,6 @@ h3{
     font-weight: bold;
     margin: 0;
 
-}
-
-#instagram {
-    width: 50px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
 }
 
 footer {
